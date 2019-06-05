@@ -15,4 +15,4 @@ This app will help you locate the nearest EVCS and shows the approximate waiting
 
 ### Screenshot
 
-![Web page](https://github.com/tarunlahrod/FUTURE-GADGETS-LAB/blob/master/Screenshots/EESLWebApp.png)
+![Web page](https://github.com/tarunlahrod/FUTURE-GADGETS-LAB/blob/master/Screenshots/EVCSWebApp.png)
