@@ -1,0 +1,194 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+html {
+    background-color: white;
+    font-size: 16px;
+}
+
+.button {
+/*    align-items: right;*/
+    vertical-align: middle;
+    
+    
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.25em;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  line-height: 1.5;
+  padding-bottom: calc(0.375em - 1px);
+  padding-left: calc(0.625em - 1px);
+  padding-right: calc(0.625em - 1px);
+  padding-top: calc(0.375em - 1px);
+  position: relative;
+  vertical-align: top;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #209CEE;
+  border-color: #dbdbdb;
+  color: white;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.title {
+    background: #00D1B2;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 500;
+    padding: 45px 45px;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.threeButton {
+    float: right;
+    margin: -35px 0px;
+}
+
+.menuButton {
+    font-size: 20px;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;    color: white;
+    background-color: #00D1B2;
+    border: 2px solid #fff;
+    padding: 3px 10px;
+    margin: -80px 5px;
+}
+
+.text {
+    height: 30px;
+    width: 300px;
+}
+
+#searchBox {
+    width: auto;
+    margin: 15px 50px;
+    float: right;
+    align-items: center;
+}
+
+#picMenu {
+    align-content: center;
+    background: url(images/evcs2.jpg);
+    background-size: cover;
+    background-repeat: space;
+    padding: 30px;
+}
+
+#name {
+    font-size: 20px;
+    text-align: center;
+    padding: 7px;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;}
+
+#contentBox {    
+    margin: auto;
+    width: 50%;    
+    border: 0.5px solid grey;
+    background: #f9f7f9 ;
+    width: 500px;
+    height: 150px;
+/*    margin: 10px 55px;*/ 
+    border-radius: 15px;
+    transition: background 0.3s ease, height 0.7s ease, font-size 0.3s ease,
+        border-radius 0.3s ease;
+}
+
+#contentBox:hover {
+    z-index: 1;
+    margin-top: 30px;
+    margin: auto;
+    width: 50%;
+    background: #8af7e7;
+    color: cornflowerblue;
+    font-size: 20px;
+    width: 500px;
+    height: 160px;
+    border-radius: 15px 50px;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+#ratingandstar {
+    margin-left: 20px;
+    width: 140px;
+}
+
+#ratingBox {
+    color: black;
+    width: 100px;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+/*
+    font-weight: normal;
+    font-style: normal;
+*/
+    font-size: 20px; 
+}
+
+#timeRate {
+    float: right;
+    margin-right: 50px;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.checked {
+  color: orange;
+}
